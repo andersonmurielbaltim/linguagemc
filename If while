@@ -1,0 +1,25 @@
+#include <stdio.h> 
+
+int main () {
+
+int opcao;
+
+printf("Digite um valor ou -1 para sair:");
+scanf("%d", &opcao);
+
+
+while (opcao != -1){
+
+
+printf("oi");
+
+printf("Digite um valor ou -1 para sair:");
+scanf("%d", &opcao);
+
+}
+
+
+
+
+
+}
