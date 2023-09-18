@@ -1,0 +1,61 @@
+#include<stdio.h>
+
+int main (){
+
+    int contador = 0;
+    int digito;
+
+
+    while(contador < 9){
+        printf("\n Oi");
+        printf("\nDigite um numero de 1 a 7: ");
+        scanf("%d", &digito);
+
+        switch(digito){
+            case 1:
+                printf("Domingo");
+                break;
+
+            case 2:
+                printf("Segunda-feira");
+                break;
+
+            case 3:
+                printf("Terça-feira");
+                break;
+
+            case 4:
+                printf("Quarta-feira");
+                break;
+
+            case 5:
+                printf("Quinta-feira");
+                break;
+
+            case 6:
+                printf("Sexta-feira");
+                break;
+
+            case 7:
+                printf("Sabado");
+                break;
+
+
+            printf("finalizou o programa:");
+
+            break;
+
+
+        }//fim do switch
+       contador++;
+
+
+    } //fim do while
+    printf("\n\n Finalizou o programa \n\n\n");
+
+} //fim do main
+
+
+
+
+
