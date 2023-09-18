@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main ()
+
+{
+
+int digito;
+
+printf("Digite um numero de 1 a 7");
+scanf("%d", &digito);
+
+switch(digito){
+  case 1:
+    printf("Domingo");
+    break;
+
+  case 2:
+    printf("Segunda-feira");
+    break;
+
+ case 3:
+    printf("Terça-feira");
+    break;
+
+
+
+
+ default:
+    printf("numero invalido");
+
+}
+
+
